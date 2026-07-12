@@ -1,0 +1,54 @@
+# Local workspace and tool metadata
+.agents/
+.codex/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Dependencies and package-manager caches
+node_modules/
+vendor/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build, test, and coverage output
+dist/
+build/
+out/
+coverage/
+.cache/
+.tmp/
+temp/
+
+# Python-generated files and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java and Gradle build output
+target/
+.gradle/
+
